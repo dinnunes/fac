@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Família, Amigos e Colegas...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #000; 
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #f7f5f5;
+            padding: 30px;
+            border-radius: 0px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 25px;
+        }
+        .category {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #d7d5d5; /* Cor padrão da borda */
+            background-color: #f7f5f5;
+            border-radius: 0px;
+        }
+        .category h2 {
+            margin-top: 0;
+            color: #111111;
+            border-bottom: 2px solid #d7d5d5;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .store-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: flex-start;
+        }
+        .store-list li {
+            margin-bottom: 10px;
+        }
+        .store-link {
+            display: block;
+            padding: 10px 15px;
+            text-align: center;
+            border-radius: 0px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white; /* Cor do texto padrão */
+            transition: transform 0.2s, box-shadow 0.2s;
+            min-width: 120px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .store-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* --- Cores Personalizadas --- */
+        .mercadolivre { background-color: #ffffff; color: #111111; }
+        .amazon { background-color: #111111; color: #ffffff; }
+        .hering { background-color: #111111; color: #ffffff; }
+        .chicorei { background-color: #ffffff; color: #111111; }
+        .shein { background-color: #ffffff; color: #111111; }
+        .montecarlo { background-color: #111111; color: #ffffff; }
+        .vivara { background-color: #808080; color: #ffffff; }
+        .casasbahia { background-color: #111111; color: #ffffff; }
+        .kabum { background-color: #808080; color: #ffffff; }
+        .netshoes { background-color: #ffffff; color: #111111; }
+        .olympikus { background-color: #111111; color: #ffffff; }
+        .leroymerlin { background-color: #ffffff; color: #111111; }
+        .camicado { background-color: #111111; color: #ffffff; }
+        .madesa { background-color: #808080; color: #ffffff; }
+        .belezanaweb { background-color: #ffffff; color: #111111; }
+        .alura { background-color: #808080; color: #ffffff; }
+        .udemy { background-color: #ffffff; color: #111111; }
+        .petz { background-color: #808080; color: #ffffff; }
+        .cobasi { background-color: #ffffff; color: #111111; }
+
+        /* Cores das Bordas das Categorias */
+        .category-marketplace { border-left-color: #007bff; }
+        .category-fashion { border-left-color: #e91e63; }
+        .category-electronics { border-left-color: #03a9f4; }
+        .category-home { border-left-color: #4caf50; }
+        .category-beauty { border-left-color: #9c27b0; }
+        .category-sports { border-left-color: #ff9800; }
+        .category-misc { border-left-color: #607d8b; }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Família, Amigos e Colegas...</h1>
+        <p style="text-align: center; margin-bottom: 30px; font-size: 1.1em;">Deseja comprar algo essa semana?</p>
+
+        <div class="category category-marketplace">
+            <h2>🏬 Varejo Geral</h2>
+            <ul class="store-list">
+                <li><a class="store-link amazon" href="https://amzn.to/3KU0QyJ">Amazon</a></li>
+                <li><a class="store-link mercadolivre" href="https://www.mercadolivre.com.br/social/mn20251014174151/lists">Mercado Livre</a></li>
+            </ul>
+        </div>
+
+        <div class="category category-fashion">
+            <h2>🧣 Moda e Joias</h2>
+            <ul class="store-list">
+                <li><a class="store-link hering" href="https://i0c.xyz/693f0fad0d7f8">Hering</a></li>
+                <li><a class="store-link chicorei" href="https://ir3.xyz/693f101518553">Chico Rei</a></li>
+                <li><a class="store-link shein" href="https://onelink.shein.com/23/5a8saum5znrk">Shein</a></li>
+                <li><a class="store-link montecarlo" href="https://tidd.ly/4azfEgX">Monte Carlo</a></li>
+                <li><a class="store-link vivara" href="https://tidd.ly/4oXAxpf
+">Vivara</a></li>
+            </ul>
+        </div>
+
+        <div class="category category-electronics">
+            <h2>🔌 Eletrodomésticos e Games</h2>
+            <ul class="store-list">
+                <li><a class="store-link casasbahia" href="https://www.casasbahia.com.br/">Casas Bahia</a></li>
+                <li><a class="store-link kabum" href="https://www.kabum.com.br/">KaBuM!</a></li>
+            </ul>
+        </div>
+
+        <div class="category category-sports">
+            <h2>🏃‍♀️ Esportes e Fitness</h2>
+            <ul class="store-list">
+                <li><a class="store-link netshoes" href="https://click.linksynergy.com/deeplink?id=lmb29oxRzqA&mid=43984&murl=https%3A%2F%2Fwww.netshoes.com.br%2F">Netshoes</a></li>
+                <li><a class="store-link olympikus" href="https://tidd.ly/4iWZjo5">Olympikus</a></li>
+            </ul>
+        </div>
+
+        <div class="category category-home">
+            <h2>🏡 Construção e Decoração</h2>
+            <ul class="store-list">
+                <li><a class="store-link leroymerlin" href="https://i0c.xyz/693f184232574">Leroy Merlin</a></li>
+                <li><a class="store-link camicado" href="https://tidd.ly/4pBVuqX">Camicado</a></li>
+                <li><a class="store-link madesa" href="https://gettracker.net/693f184269b18">Madesa</a></li>
+            </ul>
+        </div>
+
+        <div class="category category-beauty">
+            <h2>✨ Beleza e Educação</h2>
+            <ul class="store-list">
+                <li><a class="store-link belezanaweb" href="https://www.belezanaweb.com.br/">Beleza na Web</a></li>
+                <li><a class="store-link alura" href="https://www.alura.com.br/">Alura</a></li>
+                <li><a class="store-link udemy" href="https://i0x.xyz/693f19c1b67f0">Udemy</a></li>
+            </ul>
+        </div>
+
+        <div class="category category-misc">
+            <h2>🐾 Pet</h2>
+            <ul class="store-list">
+                <li><a class="store-link petz" href="https://petz.com.br/parceiro/pitore">Petz</a></li>
+                <li><a class="store-link cobasi" href="https://mais.app/h8nTmc">Cobasi</a></li>
+            </ul>
+        </div>
+
+        <p style="text-align: center; margin-top: 40px; border-top: none; padding-top: 20px; font-size: 0.9em; color: #666;"> Obrigado! Fique à vontade → t.me/dinnunes</p>
+    </div>
+</body>
+</html>
